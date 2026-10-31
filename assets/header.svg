@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#ffffff"/>
+
+  <!-- 主名 -->
+  <text x="400" y="118" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+        font-size="96" font-weight="200" letter-spacing="10" fill="#002FA7">su</text>
+
+  <!-- 细线 -->
+  <rect x="330" y="148" width="140" height="1.5" fill="#002FA7" opacity="0.9"/>
+
+  <!-- 身份 -->
+  <text x="400" y="186" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, sans-serif"
+        font-size="15" font-weight="300" letter-spacing="8" fill="#002FA7" opacity="0.75">教育 / 科研工作者</text>
+
+  <!-- 轮换语句（SMIL 动画，无需脚本） -->
+  <g font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="300"
+     text-anchor="middle" fill="#002FA7">
+    <text x="400" y="248" opacity="0">把代码和硬件带进课堂
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06;0.30;0.36;1"
+               dur="12s" begin="0s" repeatCount="indefinite"/>
+    </text>
+    <text x="400" y="248" opacity="0">AI × 硬件的探索者
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06;0.30;0.36;1"
+               dur="12s" begin="4s" repeatCount="indefinite"/>
+    </text>
+    <text x="400" y="248" opacity="0">Arduino · ESP32 · MicroPython
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06;0.30;0.36;1"
+               dur="12s" begin="8s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
